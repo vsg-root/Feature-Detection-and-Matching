@@ -50,8 +50,6 @@ print(len(desList))
 
 cap = cv2.VideoCapture(0)
 
-
-
 while True:
 
     success, img2 = cap.read()
@@ -68,6 +66,3 @@ while True:
     cv2.imshow('Kp1', imgKp1)
 
     cv2.waitKey(1)
-
-
-
